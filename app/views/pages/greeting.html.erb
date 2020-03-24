@@ -1,1 +1,6 @@
-<h1>Hey, Welcome TO YOur Dynamic Page Mr. <%= current_user.email %> </h1> 
+<h1>Hey, Welcome TO YOur Dynamic Page Mr. <%= current_user.email %> </h1>
+<h5>User Info..</h5>
+<hr>
+<p>Provider: <%= current_user.provider %></p>
+<p>UID: <%= current_user.uid %></p>
+<p>Email: <%= current_user.email %></p>

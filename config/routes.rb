@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  
-  devise_for :users, path: 'auth', path_names: {sign_in: 'login', sign_out: 'logout'}
+  as :user do
+    get "sign_in", to: "devise/sessions#new"
+  end
+
+  devise_for :users, controllers: {omniauth_callbacks: 'users/omniauth_callbacks'}
   
   # devise_scope :user do
   #   get '/login', to: 'devise/sessions#new'

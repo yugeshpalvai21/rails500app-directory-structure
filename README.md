@@ -1,24 +1,11 @@
-# README
+### Experienting With Rails Version 5.0.0
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##### Topics Included
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Directory Structure
+- Features Come Along With Version
+- Deprecations
+- Assoications
+- Implementing New Features
+- New Gem Integrations
+- Different End Points

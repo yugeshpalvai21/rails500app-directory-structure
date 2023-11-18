@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### sets ruby 2.5.9 on local using rbenv
+  ``` rbenv install 2.5.9 && rbenv local 2.5.9```
 
-Things you may want to cover:
+#### install bundler 
+  ``` gem install bundler:1.17.3```
+  ``` bin/bundle install ```   
+#### create database and run migrations
+ ``` bin/rails db:create && bin/rails db:migrate```
 
-* Ruby version
+#### generate controller with action and without assets and helper
+  ``` bin/rails g controller Pages home --no-assets --no-helper```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### run server locally
+  ``` bin/rails s```

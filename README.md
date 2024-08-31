@@ -1,7 +1,8 @@
 # README
 
-#### sets ruby 2.5.9 on local using rbenv
+#### sets ruby 2.5.9 on local using rbenv 
   ``` rbenv install 2.5.9 && rbenv local 2.5.9```
+  > Optional: in case of ```Build Failed``` while installing then run ```RUBY_CFLAGS="-Wno-error=implicit-function-declaration" asdf install ruby 2.5.9 ```
 
 #### install bundler 
   ``` gem install bundler:1.17.3```
